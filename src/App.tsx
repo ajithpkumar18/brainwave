@@ -3,9 +3,11 @@ import Header from './components/Header'
 const App=()=>{
   return (
     <>
-    <h1></h1>
-    {/* <ButtonGradient/> */}
-    <Header/>
+    <div className='pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden'>
+      <Header/>
+    </div>
+    <ButtonGradient/>
+
     </>
   )
 }
