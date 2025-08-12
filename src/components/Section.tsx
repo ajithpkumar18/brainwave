@@ -1,11 +1,11 @@
 import SectionSvg from "../assets/svg/SectionSvg";
 type sectionProps = {
-  className: string,
-  id: string,
-  crosses: any,
-  crossesOffset: string,
-  customPaddings: any,
-  children: any
+  className?: string,
+  id?: string,
+  crosses?: any,
+  crossesOffset?: string,
+  customPaddings?: any,
+  children?: any
 }
 const Section = ({ className, id, crosses, crossesOffset,
   customPaddings, children
